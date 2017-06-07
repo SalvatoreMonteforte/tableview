@@ -75,7 +75,7 @@ class TableViewController: UITableViewController {
         
         cell.textLabel!.text = "\(identity[indexPath.row].nome)"
         cell.detailTextLabel!.text = "\(identity[indexPath.row].cognome)"
-        cell.imageView?.image = "\(identity[indexPath.row].foto)"
+        cell.imageView?.image = identity[indexPath.row].foto
         
         return cell
     }
