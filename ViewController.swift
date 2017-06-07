@@ -9,9 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var studenteSelezionato: Studente!
 
+    @IBOutlet weak var image: UIImageView!
+    
+    @IBOutlet weak var labelnome: UILabel!
+    
+    @IBOutlet weak var labelcognome: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        labelnome.text = studenteSelezionato.nome
+        labelcognome.text = studenteSelezionato.cognome
+        image.image = studenteSelezionato.foto
+
 
         // Do any additional setup after loading the view.
     }
