@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C912BCBB1EE83134004D0002 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912BCBA1EE83134004D0002 /* ViewController.swift */; };
 		C9F450DF1EE8053700E056E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F450DE1EE8053700E056E3 /* AppDelegate.swift */; };
 		C9F450E61EE8053700E056E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F450E51EE8053700E056E3 /* Assets.xcassets */; };
 		C9F450E91EE8053700E056E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F450E71EE8053700E056E3 /* LaunchScreen.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C912BCBA1EE83134004D0002 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		C9F450DB1EE8053700E056E3 /* Table view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table view.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F450DE1EE8053700E056E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9F450E51EE8053700E056E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		C9F450DD1EE8053700E056E3 /* Table view */ = {
 			isa = PBXGroup;
 			children = (
+				C912BCBA1EE83134004D0002 /* ViewController.swift */,
 				C9F450F21EE8083800E056E3 /* Main.storyboard */,
 				C9F450F61EE80A3A00E056E3 /* TableViewController.swift */,
 				C9F450DE1EE8053700E056E3 /* AppDelegate.swift */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C912BCBB1EE83134004D0002 /* ViewController.swift in Sources */,
 				C9F450DF1EE8053700E056E3 /* AppDelegate.swift in Sources */,
 				C9F450F71EE80A3A00E056E3 /* TableViewController.swift in Sources */,
 			);
@@ -294,6 +298,7 @@
 				C9F450EF1EE8053700E056E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
